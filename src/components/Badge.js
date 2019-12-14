@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import './styles/Badge.css';
-import confLogo from '../images/badge-header.svg';
+import "./styles/Badge.css";
+import confLogo from "../images/badge-header.svg";
 
 class Badge extends React.Component {
   render() {
@@ -24,7 +24,7 @@ class Badge extends React.Component {
 
         <div className="Badge__section-info">
           <h3>{this.props.jobTitle}</h3>
-          <div>@{this.props.twitter}</div>
+          <div>@{this.props.instagram}</div>
         </div>
 
         <div className="Badge__footer">#platziconf</div>
